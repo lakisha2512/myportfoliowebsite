@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02d4e5a5bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/Lazar_4.png" alt="logo" class="logo">
+                <ul id="menu">
+                    <li><a href="#header">Home</a><i class="fas fa-times" onclick="closemenu('fa-times')"></i></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact-me">Contact</a></li> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu('fa-bars')"></i>
+            </nav>
+                <div class="head-text">
+                    <p>FRONT-END DEVELOPER</p>
+                        <h1>Hi, I'm <span>Lazar</span> Đorđević<br>From Serbia</h1>
+                </div>
+            </div>
+        </div>
+
+    
+     <div id="about">
+        <div class="container">
+            <div class="rows">
+                <div class="about-colu-1">
+                    <img src="./assets/lazar_about.png" alt="about-me">
+                </div>
+                <div class="about-colu-2">
+                    <h1 class="title-text">About me</h1>
+                    <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias placeat nulla deserunt modi omnis! 
+                       Modi ipsum, veritatis ratione, dolore ab beatae officia sit fuga debitis, minus vel recusandae illum explicabo!
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias placeat nulla deserunt modi omnis! 
+                       Modi ipsum, veritatis ratione, dolore ab beatae officia sit fuga debitis, minus vel recusandae illum explicabo!</p>
+                <div class="titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End</span><br>Web Developer and Web designer</li>
+                        <li><span>Html and Css</span><br>Writing in HTML code and designing sites in CSS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Code by Comtrade - Front End</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <div id="services">
+        <div class="container">
+            <h1 class="title-text">My Services</h1>
+            <div class="services-li">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo incidunt quam dolorum dolor. 
+                       Quia maiores possimus, error modi deleniti id dolorum numquam aliquid velit maxime, iure, voluptatem magnam quam.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo incidunt quam dolorum dolor. 
+                       Quia maiores possimus, error modi deleniti id dolorum numquam aliquid velit maxime, iure, voluptatem magnam quam.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo incidunt quam dolorum dolor. 
+                       Quia maiores possimus, error modi deleniti id dolorum numquam aliquid velit maxime, iure, voluptatem magnam quam.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo incidunt quam dolorum dolor. 
+                       Quia maiores possimus, error modi deleniti id dolorum numquam aliquid velit maxime, iure, voluptatem magnam quam.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+         </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="title-text">My Works</h1>
+            <div class="work-li">
+                <div class="works">
+                    <img src="assets/work_1.jpg" alt="work-1">
+                    <div class="info">
+                        <h3 class="title-1">Ubuntu</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Animi, quo voluptas officia, porro illum ducimus consequuntur 
+                            quam illo sapiente magnam consequatur dolore molestias ea nisi aliquid ut nemo aperiam? Sequi.</p>
+                        <a href="./pages/prva.html/index.html" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                    <div class="works">
+                        <img src="./assets/work_2.jpg" alt="work-2">
+                        <div class="info">
+                        <h3 class="title-1">Edge Ledger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Animi, quo voluptas officia, porro illum ducimus consequuntur 
+                            quam illo sapiente magnam consequatur dolore molestias ea nisi aliquid ut nemo aperiam? Sequi.</p>
+                        <a href="./pages/druga.html/druga.html" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <img src="assets/work_3.jpg" alt="work-3">
+                        <div class="info">
+                        <h3 class="title-1">Zdrava hrana</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Animi, quo voluptas officia, porro illum ducimus consequuntur 
+                            quam illo sapiente magnam consequatur dolore molestias ea nisi aliquid ut nemo aperiam? Sequi.</p>
+                        <a href="./pages/treca.html/treca.html" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/" target="_blank" class="btn">More</a>
+        </div>
+     </div>
+
+
+     <div id="contact-me">
+        <div class="container">
+            <div class="rows">
+                <div class="contact-left">
+                    <h2 class="title-text">Contact me</h2>
+                    <p><i class="fa-solid fa-envelope"></i>djordjeviclazar2512@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+381644144250</p>
+                    <div class="icons-s">
+                        <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./assets/CV_Lazar_Djordjevic.pdf" download class="btn button-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message for me" rows="10" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn button-2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright &#169; Lazar </p>
+        </div>
+     </div>
+
+
+
+
+     <script> 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+     </script>
+     <script>
+        var sidemenu = document.getElementById("menu");
+        function openmenu(menuname){
+            menu.style.right = "0";
+        }
+        function closemenu(menuname){
+            menu.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>
